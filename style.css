@@ -1,9 +1,12 @@
-* {
+body{
     margin: 0;
+    margin-top: 2rem;
 }
 
 #navbar {
-    background-color: #333;
+    font-size: 2rem;
+    text-align: center;
+    background-color:black;
     position: fixed;
     top: 0;
     width: 100%;
@@ -13,9 +16,11 @@
 }
 
 #navbar a {
-    float: left;
-    display: block;
-    color: white;
+    float: none;
+    width: auto;
+    margin: 0 auto;
+    display: inline-block;
+    color:pink;
     text-align: center;
     padding: 15px;
     text-decoration: none;
@@ -25,3 +30,4 @@
     background-color: #ddd;
     color: black;
 }
+
